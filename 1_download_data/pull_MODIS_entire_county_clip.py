@@ -24,9 +24,7 @@ def export_oneimage(img,folder,name,scale,crs):
   print 'Done.', task.status()
 
 
-
-
-locations = pd.read_csv('locations_final.csv',header=None)
+locations = pd.read_csv('..//locations_final.csv', header=None)
 
 
 # Transforms an Image Collection with 1 band per Image into a single Image with items as bands
