@@ -50,7 +50,7 @@ for loc1, loc2, lat, lon in locations.values:
     fname = '{}_{}'.format(int(loc1), int(loc2))
 
     offset = 0.11
-    scale  = 500
+    scale = 500
     crs='EPSG:4326'
 
     region = str([
